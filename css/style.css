@@ -1,0 +1,49 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    color: #fff;
+}
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar{
+    background-color: transparent;
+}
+.nav-link{
+    color: #fff;
+}
+.hero{
+    background: url('/imgs/Bg.jpg') no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.htbh{
+    font-size: 3.8rem;
+}
+
+.lead{
+    margin-block: 2.5rem;
+    font-size: 1.65rem;
+}
+.overflowad{
+    background-color: #FF2E2E;
+    width: fit-content;
+    overflow:visible;
+    padding-block: 1px;
+    padding-inline: 1rem;
+}
+
+.awards{
+    height: 100vh;
+    background: url('/imgs/Side\ Gate.jpg') no-repeat center center;
+    background-size: cover;
+}
