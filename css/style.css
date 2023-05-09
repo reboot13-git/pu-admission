@@ -43,7 +43,17 @@ nav{
 }
 
 .awards{
-    height: 100vh;
+    height: 130vh;
     background: url('/imgs/Side\ Gate.jpg') no-repeat center center;
     background-size: cover;
+}
+
+.vani-img{
+    height: 50rem;
+    width: auto;
+}
+
+.vani-text{
+    margin-top:5rem;
+    color:#000;
 }
