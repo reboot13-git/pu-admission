@@ -15,6 +15,7 @@ nav{
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1111;
 }
 
 .navbar{
@@ -183,4 +184,27 @@ li::marker {
     font-weight: 100!important;
     text-decoration: underline;
     text-decoration-color: #FFCC29;
+  }
+
+  .global {
+    background: url('/imgs/global.jpg') no-repeat center center;
+    background-size: cover;
+    // height: 100vh;
+    background-color: #000;
+    color: #fff;
+  }
+
+  .txt-cnt {
+    background-color: #00000021;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 8px 32px 0 #00000017;
+    border-bottom: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 1rem 4rem;
+  }
+
+  .at-pu{
+    color: #000;
   }
