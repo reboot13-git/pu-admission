@@ -16,7 +16,8 @@ nav{
 
 .navbar{
     background-color: #00000021;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 8px 32px 0 #00000017;
     border-bottom: 1px solid #fff;
 }
 .nav-link{
@@ -30,6 +31,7 @@ nav{
 
 .htbh{
     font-size: 3.8rem;
+    color: #fff!important;
 }
 
 .lead{
@@ -45,7 +47,7 @@ nav{
 }
 
 .awards{
-    height: 130vh;
+    height: 100vh;
     background: url('/imgs/Side\ Gate.jpg') no-repeat center center;
     background-size: cover;
 }
