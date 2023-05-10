@@ -8,14 +8,16 @@ body{
     color: #fff;
 }
 nav{
-    position: fixed;
+    position: fixed!important;
     top: 0;
     right: 0;
     left: 0;
 }
 
 .navbar{
-    background-color: transparent;
+    background-color: #00000021;
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid #fff;
 }
 .nav-link{
     color: #fff;
@@ -56,4 +58,24 @@ nav{
 .vani-text{
     margin-top:5rem;
     color:#000;
+}
+
+.r-yellow{
+    background: url('/imgs/r-yellow.png') no-repeat center center;
+    padding-block: 3rem;
+    margin-top: 1rem;
+    position: relative;
+}
+.artist{
+    width: 25rem;
+    /* position: absolute;
+    bottom: 0; */
+
+}
+
+.cultural-img{
+ background: url('/imgs/artist.png') no-repeat center center;
+ width: auto;
+height: auto;
+background-size: contain;
 }
