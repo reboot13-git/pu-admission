@@ -84,7 +84,13 @@ nav {
 }
 
 .cultural {
-  color: #000000 !important;
+  color: #ffffff !important;
+  background-color: #000;
+}
+
+.cultural img {
+  border: 1px solid #FFCC29;
+  border-radius: 10px;
 }
 
 .c1, .c2, .c3, .c4 {
@@ -92,7 +98,8 @@ nav {
 }
 
 .placements {
-  background-color: #000 !important;
+  background: url("/imgs/Section bg.jpg") no-repeat center center;
+  background-size: cover;
   color: #fff !important;
 }
 
@@ -112,15 +119,6 @@ nav {
 .glass-effect {
   height: -moz-fit-content;
   height: fit-content;
-}
-
-.li-box {
-  font-size: 1.3rem;
-  padding: 0.5rem 0.8rem;
-  margin: 0.5rem 0;
-  border-radius: 5px;
-  /* background-color: #00000021; */
-  border: 1px solid #fff;
 }
 
 li::marker {
@@ -191,11 +189,4 @@ li::marker {
 
 .at-pu {
   color: #000;
-}
-
-.life-at-pu {
-  background: url("/imgs/Life At PU.jpg") no-repeat center center;
-  background-size: cover;
-  background-color: #000;
-  color: #fff;
 }/*# sourceMappingURL=style.css.map */
