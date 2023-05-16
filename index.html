@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/intlTelInput.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/intlTelInput-jquery.min.js" defer></script>
+    <script src="./js/utils.js" defer></script>
 
 </head>
 <body>
-    
+
     <section class="hero">
-        
+
     <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -26,7 +35,7 @@
                 <path d="M68.95 0.205688C69.7312 0.205688 70.4935 0.399438 71.2372 0.793188C71.981 1.19944 72.5687 1.76819 72.9749 2.51194C73.3999 3.25569 73.5935 4.03694 73.5935 4.84944C73.5935 5.64944 73.3998 6.42444 72.9935 7.15569C72.5873 7.89944 71.9998 8.46819 71.2748 8.87444C70.531 9.29944 69.7686 9.49319 68.9561 9.49319C68.1561 9.49319 67.3811 9.29944 66.6498 8.87444C65.9061 8.46819 65.3373 7.89944 64.9311 7.15569C64.5061 6.43069 64.3125 5.64944 64.3125 4.84944C64.3125 4.03694 64.5248 3.25569 64.9311 2.51194C65.3561 1.76819 65.925 1.19944 66.6688 0.793188C67.4125 0.399438 68.175 0.205688 68.95 0.205688ZM68.95 0.968189C68.2937 0.968189 67.6748 1.13069 67.056 1.46194C66.4373 1.79944 65.9374 2.27444 65.6061 2.89944C65.2499 3.51819 65.0748 4.17444 65.0748 4.84944C65.0748 5.52444 65.2497 6.16194 65.5872 6.78069C65.9435 7.38069 66.4187 7.86194 67.0249 8.21819C67.6437 8.55569 68.2998 8.73069 68.9561 8.73069C69.6311 8.73069 70.2688 8.55569 70.8875 8.21819C71.5063 7.86194 71.9874 7.38694 72.3249 6.78069C72.6624 6.16194 72.8373 5.52444 72.8373 4.84944C72.8373 4.17444 72.6624 3.51819 72.3249 2.89944C71.9686 2.28069 71.4938 1.79944 70.875 1.46194C70.2562 1.12444 69.6062 0.968189 68.95 0.968189ZM66.9123 7.41819V2.42444H68.631C69.2185 2.42444 69.6436 2.46194 69.9061 2.56819C70.1748 2.65569 70.3873 2.81819 70.5436 3.04944C70.7061 3.28069 70.7749 3.53069 70.7749 3.77444C70.7749 4.14944 70.6498 4.46819 70.3873 4.73069C70.1186 4.99944 69.7686 5.15569 69.3436 5.19319C69.5186 5.26194 69.6625 5.35569 69.7687 5.46194C69.9625 5.65569 70.2125 5.97444 70.5125 6.43694L71.1124 7.43069H70.1374L69.6937 6.63069C69.3374 6.01194 69.0563 5.61819 68.8438 5.48069C68.7 5.35569 68.4875 5.30569 68.2062 5.30569H67.725V7.43069H66.9123V7.41819ZM67.7311 4.59944H68.7061C69.1686 4.59944 69.4872 4.53069 69.6622 4.38694C69.8372 4.24319 69.9311 4.06819 69.9311 3.83694C69.9311 3.69319 69.881 3.55569 69.806 3.44944C69.7185 3.32444 69.6123 3.23694 69.4498 3.18069C69.3061 3.12444 69.0437 3.09319 68.65 3.09319H67.7311V4.59944Z" fill="white"/>
                 <path d="M89.0624 2.40579H91.2938V12.162C91.2938 13.8433 91.1001 15.1933 90.7064 16.1808C90.3314 17.1933 89.6437 17.987 88.6312 18.6245C87.6374 19.2433 86.3249 19.562 84.6999 19.562C83.1249 19.562 81.8312 19.2808 80.8187 18.7308C79.8249 18.1995 79.1001 17.3995 78.6751 16.3745C78.2501 15.3495 78.0376 13.9308 78.0376 12.1558V2.40579H80.2501V12.1495C80.2501 13.6183 80.3938 14.6995 80.6563 15.3745C80.9376 16.0808 81.4001 16.612 82.0751 16.987C82.7313 17.362 83.5438 17.5558 84.5 17.5558C86.1312 17.5558 87.3187 17.1808 88.0062 16.437C88.6999 15.6933 89.0499 14.2558 89.0499 12.1495V2.40579H89.0624ZM94.8186 19.2683V7.06204H96.6811V8.79954C97.5686 7.45579 98.8814 6.78079 100.563 6.78079C101.306 6.78079 101.981 6.92454 102.6 7.18704C103.219 7.45579 103.662 7.78704 103.981 8.21204C104.281 8.65579 104.494 9.14954 104.619 9.75579C104.706 10.1308 104.744 10.7995 104.744 11.7558V19.2683H102.669V11.8433C102.669 10.9933 102.581 10.3745 102.419 9.94954C102.262 9.52454 101.975 9.20579 101.569 8.95579C101.163 8.70579 100.681 8.56829 100.119 8.56829C99.2498 8.56829 98.4874 8.84954 97.8499 9.41829C97.1937 9.98704 96.8749 11.0308 96.8749 12.6058V19.2683H94.8186ZM108 4.79329V2.39954H110.056V4.79329H108ZM108 19.2683V7.06204H110.056V19.2683H108ZM116.681 19.2683L112.038 7.06204H114.219L116.844 14.3808C117.125 15.162 117.394 15.9933 117.625 16.8433C117.8 16.187 118.069 15.4245 118.388 14.5245L121.119 7.06829H123.244L118.619 19.2745H116.681V19.2683ZM133.494 15.337L135.637 15.6058C135.281 16.862 134.662 17.837 133.762 18.5308C132.844 19.2058 131.675 19.5558 130.256 19.5558C128.487 19.5558 127.069 19.0058 126.025 17.9058C124.981 16.8058 124.45 15.2683 124.45 13.262C124.45 11.2058 124.981 9.61204 126.044 8.48079C127.088 7.34954 128.469 6.78079 130.156 6.78079C131.787 6.78079 133.131 7.34954 134.162 8.44329C135.187 9.56204 135.719 11.1183 135.719 13.137C135.719 13.262 135.7 13.4558 135.7 13.687H126.594C126.663 15.0308 127.056 16.062 127.725 16.7683C128.419 17.4933 129.269 17.8495 130.275 17.8495C131.037 17.8495 131.675 17.6558 132.225 17.2495C132.75 16.862 133.175 16.2245 133.494 15.337ZM126.688 11.987H133.506C133.419 10.962 133.15 10.1995 132.725 9.68079C132.069 8.88079 131.219 8.47454 130.156 8.47454C129.219 8.47454 128.419 8.79329 127.763 9.43079C127.106 10.0683 126.762 10.9245 126.688 11.987ZM138.275 19.2683V7.06204H140.138V8.90579C140.619 8.03704 141.056 7.46829 141.469 7.20579C141.856 6.92454 142.3 6.78079 142.8 6.78079C143.494 6.78079 144.2 7.01204 144.925 7.45579L144.2 9.36829C143.706 9.06829 143.187 8.92454 142.694 8.92454C142.231 8.92454 141.825 9.06829 141.469 9.33079C141.094 9.59954 140.85 9.98704 140.687 10.462C140.456 11.187 140.35 12.0058 140.35 12.8683V19.262H138.275V19.2683ZM145.381 15.6183L147.438 15.2995C147.544 16.1308 147.881 16.7495 148.394 17.1933C148.925 17.6183 149.65 17.8495 150.594 17.8495C151.55 17.8495 152.256 17.6558 152.719 17.262C153.181 16.8745 153.412 16.412 153.412 15.8995C153.412 15.437 153.2 15.0683 152.794 14.7995C152.513 14.6058 151.8 14.3745 150.687 14.0933C149.162 13.7183 148.119 13.387 147.531 13.0995C146.944 12.8183 146.506 12.4245 146.188 11.9308C145.888 11.437 145.744 10.9058 145.744 10.2995C145.744 9.74954 145.869 9.25579 146.119 8.79329C146.369 8.31204 146.706 7.94329 147.131 7.62454C147.469 7.39329 147.894 7.18079 148.462 7.02454C149.012 6.86204 149.613 6.77454 150.25 6.77454C151.206 6.77454 152.038 6.91829 152.763 7.19954C153.488 7.46829 154.019 7.83704 154.375 8.31829C154.712 8.79954 154.944 9.41829 155.081 10.212L153.063 10.4808C152.956 9.86204 152.687 9.36204 152.262 9.01204C151.819 8.65579 151.181 8.48079 150.387 8.48079C149.431 8.48079 148.756 8.64329 148.35 8.96204C147.944 9.28079 147.75 9.63704 147.75 10.062C147.75 10.3308 147.838 10.5745 148 10.787C148.175 11.0183 148.444 11.1933 148.8 11.337C149.012 11.4245 149.612 11.6058 150.625 11.8683C152.094 12.2558 153.106 12.5745 153.688 12.8245C154.275 13.0745 154.712 13.4433 155.05 13.9245C155.387 14.4058 155.544 14.987 155.544 15.6933C155.544 16.387 155.331 17.0245 154.944 17.6433C154.537 18.2433 153.95 18.7245 153.187 19.062C152.444 19.3995 151.575 19.5558 150.619 19.5558C149.025 19.5558 147.819 19.2183 146.987 18.562C146.144 17.9058 145.613 16.9308 145.381 15.6183ZM158.069 4.79329V2.39954H160.144V4.79329H158.069ZM158.069 19.2683V7.06204H160.144V19.2683H158.069ZM167.881 17.4245L168.181 19.2495C167.594 19.3745 167.081 19.4245 166.625 19.4245C165.862 19.4245 165.294 19.3183 164.869 19.0683C164.462 18.837 164.175 18.5183 164 18.1308C163.825 17.7558 163.75 16.9433 163.75 15.687V8.67454H162.225V7.06204H163.75V4.03079L165.806 2.79329V7.06204H167.881V8.67454H165.806V15.812C165.806 16.3995 165.844 16.787 165.912 16.9433C165.981 17.1183 166.106 17.2433 166.269 17.3495C166.431 17.4558 166.675 17.4933 166.975 17.4933C167.206 17.4995 167.506 17.4808 167.881 17.4245ZM169.881 23.9808L169.65 22.0308C170.112 22.1558 170.5 22.2245 170.838 22.2245C171.3 22.2245 171.669 22.137 171.956 21.9933C172.219 21.8308 172.45 21.6183 172.631 21.337C172.756 21.1433 172.969 20.6308 173.25 19.7933C173.306 19.687 173.356 19.512 173.444 19.2995L168.819 7.05579H171.031L173.581 14.1245C173.9 15.0308 174.2 15.9683 174.469 16.962C174.7 16.0058 174.981 15.087 175.319 14.1808L177.925 7.05579H180L175.356 19.4745C174.863 20.8183 174.469 21.7433 174.188 22.2558C173.812 22.9308 173.406 23.4245 172.931 23.7433C172.45 24.062 171.888 24.2245 171.231 24.2245C170.819 24.2308 170.381 24.1433 169.881 23.9808Z" fill="white"/>
                 </svg>
-                
+
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,12 +56,15 @@
         </div>
       </nav>
 
-        <div class="container">
+        <div class="container ">
 
-  
+
 
             <div class="row">
-                <div class="col d-flex justify-content-center my-3  flex-column" style="height: 100vh;">
+              <div class="col m-bg my-3">
+                <img src="./imgs/mb-bg.jpg" alt="" class="img-fluid">
+              </div>
+                <div class="col d-flex justify-content-center my-3  flex-column d-bg">
                     <svg width="421" height="95" viewBox="0 0 421 95" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.0296021 72.8169H16.2179V42.1116L38.5221 72.8169H54.7104V15.4693H38.5221V46.1746L16.2179 15.4693H0.0296021V72.8169ZM103.868 72.8169H122.174L100.102 15.4693H81.8607L59.853 72.8169H78.0944L81.0351 65.1353H100.948L103.868 72.8169ZM85.5639 53.2002L91.0237 39.2759L96.3565 53.2002H85.5639ZM166.359 72.8169H184.6L162.591 15.4693H144.287L122.279 72.8169H140.584L143.525 65.1353H163.439L166.359 72.8169ZM148.075 53.2002L153.471 39.2759L158.803 53.2002H148.075ZM218.733 73.769C227.917 73.769 236.255 69.8754 242.011 63.6328L230.139 53.2636C227.388 56.7976 223.304 59.083 218.733 59.083C210.882 59.083 204.217 52.2479 204.217 44.0796C204.217 35.9748 210.882 29.1396 218.733 29.1396C223.241 29.1396 227.367 31.4885 230.075 35.0225L242.011 24.5899C236.255 18.4108 227.917 14.517 218.733 14.517C201.825 14.517 187.541 28.0181 187.541 44.0796C187.541 60.2258 201.825 73.769 218.733 73.769Z" fill="white"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M300.183 0C322.974 0 341.999 16.2519 346.316 37.7943H335.628V52.1842H346.908C344.389 75.758 324.413 94.1048 300.183 94.1048C274.218 94.1048 253.163 72.9858 253.163 47.0208C253.163 21.0557 274.218 0 300.183 0ZM314.467 72.8165H332.772L310.764 15.469H292.459L270.452 72.8165H288.756L291.634 65.1349H311.611L314.467 72.8165ZM296.227 53.1999L301.622 39.2756L306.955 53.1999H296.227Z" fill="#FF2E2E"/>
@@ -74,12 +86,63 @@
                             Admissions Open for
                         </h4>
                         <div class="overflowad">
-                            <h4 class="fw-bolder" style="background-color:#FF2E2E;">Academic Year 2023-24</h4>
+                            <h4 class="fw-bolder my-0" style="background-color:#FF2E2E;">Academic Year 2023-24</h4>
                         </div>
                     </div>
-                    
+
                 </div>
-                <div class="col">
+
+                <div class="col d-flex justify-content-center align-items-center my-5">
+                  <form action="" class="applynow" style="color: #fff;">
+                    <h3 class="text-center" style="color: #fff;">Apply Now</h3>
+                    <p>To get admissions by submitting your contact details below!</p>
+                    <div id="form-mobile" class="input-group mb-3 form-mobile">
+                      <div class="w-100">
+                          <div style="width: -webkit-fill-available;" class="iti iti--allow-dropdown"><div class="iti__flag-container"><div class="iti__selected-flag" role="combobox" aria-controls="iti-1__country-listbox" aria-owns="iti-1__country-listbox" aria-expanded="false" tabindex="0" title="India (भारत): +91" aria-activedescendant="iti-1__item-in"><div class="iti__flag iti__in"></div><div class="iti__arrow"></div></div><ul class="iti__country-list iti__hide" id="iti-1__country-listbox" role="listbox" aria-label="List of countries"><li class="iti__country iti__standard iti__active" tabindex="-1" id="iti-1__item-in" role="option" data-dial-code="91" data-country-code="in" aria-selected="true"><div class="iti__flag-box"><div class="iti__flag iti__in"></div></div><span class="iti__country-name">India (भारत)</span><span class="iti__dial-code">+91</span></li></ul></div><input type="number" class="form-control bgform phone_number" name="phone" id="phone" placeholder="Mobile Number" value="" required="" data-parsley-class-handler="#m_phone_error" data-parsley-errors-container="#m_phone_error"></div>
+                          <input type="hidden" value="" name="phone" width="100%">
+                          <div id="m_phone_error" class="mt-1"></div>
+                      </div>
+                  </div>
+                    <div id="form-email" class="form-group form-email mb-1">
+                        <input type="email" class="form-control form-control-lg " name="email" placeholder="E-mail" value="">
+                     </div>
+                     <div class="input-group mt-2">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text captcha" style="width: 100px; height: 42px;">
+                              <img src="https://staging.paruluniversity.ac.in/captcha/flat?iDVN0O2B" style="width: -webkit-fill-available; height: auto;">
+                          </span>
+                      </div>
+                      <input style="height:  -webkit-fill-available;;" type="text" name="captcha" class="form-control bgform " placeholder="captcha" value="" required="" data-parsley-class-handler="#m_captcha_error" data-parsley-errors-container="#m_captcha_error" data-parsley-required-message="Please, Enter captcha code">
+                      <div class="input-group-append">
+                          <span class="input-group-text reload-captcha"><a title="Refresh Captcha" href="javascript:;" class="fa fa-refresh"></a></span>
+                      </div>
+                  </div>
+                  <div id="m_captcha_error" class="mt-n1 mb-2"></div>
+                  <div class="row mt-5">
+                    <div class="col-md-12" id="form_register_btn">
+                        <input style="background-color: white;" class="submit btn btn-default btn-block text-center text-uppercase" type="submit" value="Sign Up" id="submit" onclick="">
+                    </div>
+                </div>
+
+                <div class=" my-1 mt-5">
+                  <span id="m_error_term_conditions" class="my-1"></span>
+                  <div class="custom-control custom-checkbox mr-sm-2">
+                      <input name="tocagreed" type="checkbox" class="custom-control-input" id="customControlAutosizing" data-parsley-class-handler="#m_error_term_conditions" data-parsley-errors-container="#m_error_term_conditions" data-parsley-required-message="Please, Accept Terms &amp; Conditions." required="" checked="checked" data-parsley-multiple="tocagreed">
+                      <label class="custom-control-label text-white" for="customControlAutosizing">By
+                          submitting the form you declare that you have read and
+                          agreed with our <span style="text-decoration:underline; cursor: pointer;" data-toggle="modal" data-target="#exampleModal">Terms
+                              &amp;
+                              Conditions</span></label>
+                  </div>
+              </div>
+
+              <div class="mt-3 text-white"> <a href="https://staging.paruluniversity.ac.in/student/login" class="btn btn-sm text-left text-white">Already have
+                an account?&nbsp;<b>Login</b></a>
+        </div>
+
+
+
+                  </form>
 
                 </div>
             </div>
@@ -87,11 +150,11 @@
     </section>
 
     <section class="awards">
-      <div class="px-4 pt-5  text-center">
+      <div class="px-4 pt-5  text-center" data-aos="fade-up">
         <h1 class="display-4 fw-bold" style="color: #ffe60a; text-transform: uppercase;">Be A Part Of The Most Leading </h1>
-        <h6 style="font-size: 1.8rem;">Learning Community, That Sets You Ahead Of The Rest</h6>
+        <h6 class="display-6">Learning Community, That Sets You Ahead Of The Rest</h6>
         <div class="col-lg-6 mx-auto">
-          <p style="font-size: 1rem; margin-top: 2rem;">Parul University is a premair multidisciplinary destination of learning and innovation, propelling <br> quality in higher education through extensive research, a global campus.</p>
+          <p class="lc-p" style=" margin-top: 2rem;">Parul University is a premair multidisciplinary destination of learning and innovation, propelling <br> quality in higher education through extensive research, a global campus.</p>
         </div>
         <div class="overflow-hidden" style="max-height: 30vh;">
           <div class="container px-5">
@@ -105,10 +168,10 @@
     <section class="vani">
 
       <div class="container col-xxl-8 px-4">
-        <div class="row flex-lg-row align-items-center g-5 py-5">
-         
-          <div class="col-lg-6">
-            <p style="font-size: 1.3rem; background-color: #ffe60a; color: #000; width: max-content; text-align: right;align-self: self-end; padding: .3rem; font-weight: 700;" class="fw-700">This Is Parul University For You</p>
+        <div class="row flex-lg-row align-items-center g-5 py-5" >
+
+          <div class="col-lg-6" data-aos="fade-right">
+            <p class="fw-700 pu4u">This Is Parul University For You</p>
             <h1 class="fw-bold lh-1 text-body-emphasis">A Global Learning Campus With Something For Everyone</h1>
 
             <ul>
@@ -119,11 +182,11 @@
             </ul>
           </div>
 
-          <div class="col-10 col-sm-8 col-lg-6" >
+          <div class="col-10 col-sm-8 col-lg-6" data-aos="fade-left">
             <img src="./imgs/vani.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
           </div>
-          
-     
+
+
       </div>
       </div>
 
@@ -135,60 +198,62 @@
 
 <section class="cultural mt-2">
   <div class="container py-5">
-    <div class="row py-2">
-      <h5 class="display-3 text-center" style="font-size:3rem ">An Unmatched University</h5>
+    <div class="row py-2"  data-aos="fade-down">
+      <h5 class="display-3 text-center unmu" >An Unmatched University</h5>
       <h1 class="display-1 fw-bold lh-1 text-center" style="font-size: 3rem; color: #FFCC29;">Experience</h1>
     </div>
 
     <div class="row mx-auto my-2">
-      <div class="col-md-6 my-2 px-2">
+      <div class="col-md-6 my-2 px-2"  data-aos="zoom-in">
         <img src="./imgs/c1.png" class="img-fluid">
       </div>
-      <div class="col-md-6 my-2 px-2">
+      <div class="col-md-6 my-2 px-2" data-aos="zoom-in">
         <img src="./imgs/c2.png" class="img-fluid">
       </div>
     </div>
     <div class="row mx-auto">
-      <div class="col-md-6 my-2 px-2">
+      <div class="col-md-6 my-2 px-2" data-aos="zoom-in">
           <img src="./imgs/c3.png" class="img-fluid">
       </div>
-          <div class="col-md-6 my-2 px-2" >
+          <div class="col-md-6 my-2 px-2" data-aos="zoom-in">
             <img src="./imgs/c4.png" class="img-fluid">
           </div>
         </div>
-   
+
     </div>
 </section>
 
 <section class="placements">
   <div class="container px-4 pt-5 text-center border-bottom">
     <p class="lead mb-4">Once You Take Admission Today Here is What Comes Next</p>
-    <h1 class="display-4 fw-bold" >
+    <h1 class="display-4 fw-bold" data-aos="zoom-out">
       Your Impeccable Placement <br>
        With Milestone Packages</h1>
- 
-       
+
+
 
        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="feature col text-start d-flex flex-column">
+        <div class="feature col text-start d-flex flex-column" data-aos="fade-down">
           <p>We have</p>
           <h1 class="display-5 fw-bolder yellow-c">2,500+ Recruiters</h4>
+            <hr>
           <p>Ready to Provide You with the Best <br> Job Offers With upto</p>
           <h1 class="display-5 fw-bolder yellow-c">30 Lakhs Highest <br> Package</h4>
-          <p>and average packages of</p>
+            <hr>
+          <p class="display-6">and average packages of</p>
           <h1 class="display-5 fw-bolder yellow-c">8 LPA.</h1>
 
- 
+
 
         </div>
-        <div class="feature col d-flex justify-content-center align-items-center">
+        <div class="feature col d-flex justify-content-center align-items-center" data-aos="fade-down">
 
           <div class="glass-effect px-1 py-2">
            <p class="lead my-5 px-5">Awarded as the Best <br> University in <br> Placements by <span class="fw-bold" style="color:#FFCC29"> Assocham</span></p>
           </div>
-    
+
         </div>
-        <div class="feature col d-flex flex-column text-start">
+        <div class="feature col d-flex flex-column text-start" data-aos="fade-down">
 
           <h4 style="color: #FFCC29;">How We Help Get Hired By The Best?</h4>
           <ul class="placement-ul">
@@ -209,7 +274,7 @@
             </li>
            </div>
         </ul>
- 
+
         </div>
       </div>
 
@@ -261,14 +326,14 @@
               <div class="slide">
                 <img src="./imgs/pc (14).png" height="auto" width="180" alt="" class="src">
               </div>
-          
+
           </div>
         </div>
       </div>
 
 
 
-    <div class="row mt-5">
+    <div class="row mt-5"  data-aos="fade-up">
       <div class="col d-flex flex-column text-center align-items-start gap-2">
         <p class=" text-center display-5 w-100" style="color: #FFCC29;">You Also Can Be Among</p>
         <h4 class="fw-bold display-4"> Our Alumni Working With the World’s Top Companies</h4>
@@ -276,8 +341,8 @@
     </div>
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-        
-        
+
+
         <div class="col d-flex align-items-center">
          <img src="./imgs/Placed (1).png" height="auto" width="100%" alt="">
         </div>
@@ -294,21 +359,13 @@
       </div>
 
 
-      <div class="row mt-5">
-        <div class="col d-flex flex-column text-center align-items-center gap-2">
-          <h4 class="fw-bold display-6 text-center">I’m Interested in <span class="post-grad">Post Graduation</span></h4>
-        </div>
-      </div>
-      
-
-
 
       <div class="row flex-lg-row align-items-start text-start g-5 py-5">
         <div class="col-lg-6">
           <h2 class=" fw-bold lh-1 mb-5">A Guarantee of the Finest <br> Quality in Education</h2>
-          
+
           <div class="col d-flex align-items-start mt-3">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+         
             <div>
               <p>Ranked Among</p>
               <h3 class="fw-bold mb-0 fs-4">TOP <span class="yellow-c">100</span> UNIVERSITIES IN INDIA BY <span class="yellow-c">NIRF</span></h3>
@@ -319,17 +376,17 @@
           <hr>
 
           <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+        
             <div>
               <p>India's Youngest</p>
               <h3 class="fw-bold mb-0 fs-4"><span class="yellow-c">NAAC A++</span> ACCREDITED UNIVERSITY</h3>
             </div>
           </div>
-          
+
           <hr>
 
           <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+           
             <div>
               <h3 class="fw-bold mb-0 fs-4 yellow-c"><span class="yellow-c">4</span> STAR RATING</h3>
               <p>Received From the Ministry of Education's Innovation Cell, Government of India</p>
@@ -339,20 +396,20 @@
           <hr>
 
           <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+        
             <div>
               <p>Ranked Among</p>
               <h3 class="fw-bold mb-0 fs-4">TOP <span class="yellow-c">50</span> UNIVERSITIES IN INDIA</h3>
               <p>Under ARIIA 2020 by Ministry of Education</p>
             </div>
           </div>
-          
+
         </div>
 
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 yellow-c">This is What Our NAAC A++ Accreditation Means For You…</h1>
           <p class="lead" >Parul University Made History By Becoming The Youngest University in India To Receive A NAAC A++ Accreditation.</p>
-        
+
           <div class="row row-cols-1 row-cols-sm-2 g-4">
             <div class="col d-flex flex-column gap-1">
               <div class="feature-icon-small d-inline-flex align-items-center justify-content-strat ">
@@ -360,21 +417,21 @@
               </div>
               <p >Best Quality Infrastructure & Digital Resources</p>
             </div>
-  
+
             <div class="col d-flex flex-column gap-1">
               <div class="feature-icon-small d-inline-flex align-items-center justify-content-strat">
                 <img src="./imgs/creative-teaching.svg" alt="" srcset="">
               </div>
               <p>Quality in Teaching & Student Development</p>
             </div>
-  
+
             <div class="col d-flex flex-column gap-1">
               <div class="feature-icon-small d-inline-flex align-items-center justify-content-strat">
                 <img src="./imgs/portfolio (1).svg" alt="" srcset="">
               </div>
               <p >Relevant Curriculum on a Local National & Global Levels</p>
             </div>
-  
+
             <div class="col d-flex flex-column gap-2">
               <div class="feature-icon-small d-inline-flex align-items-center justify-content-strat">
                 <img src="./imgs/bachelor.svg" alt="" srcset="">
@@ -391,7 +448,7 @@
 
           </div>
 
-          
+
         </div>
       </div>
 
@@ -403,10 +460,578 @@
   </div>
 </section>
 
+<section class="common-spacing py-lg-5 border-css d-md-block d-none" id="">
+  <div class="container custom-fluid">
+      <div class="row align-items-center">
+          <div class="col-md-6">
+              <h1 class="fnt-w-300" style="color: #000;">
+                  Here Are Our <span class="font-weight-bold"> 450+ Industry <br>Centred Programs </span> To
+                  <br>Choose From
+              </h1>
+          </div>
 
-<section class="academic_events">
+          <div class="col-md-6">
+              <ul class="nav nav-pills w-100 bgcolor mts" id="pills-tab" role="tablist">
+
+                  <li class="nav-item">
+                      <a class="nav-link rounded-0 b-font text-dark red_act fnt-w-900" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Diploma</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link rounded-0 b-font text-dark red_act active show fnt-w-900" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Undergraduate</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link rounded-0 b-font text-dark red_act fnt-w-900" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Postgraduate</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+
+      <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div class="row py-lg-2 align-items-center">
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/btechcs_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/technology.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Engineering</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bscagriculture_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/aggri.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Agriculture</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+
+                      <!-- <a href="https://paruluniversity.ac.in/llb_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/balance.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Law</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/barch_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/architect.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Architecture</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+              </div>
+
+              <div class="row py-lg-2 align-items-center">
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bcom_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/maths.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Commerce</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bca_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/Outline_43_.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">IT &amp; Computer Science</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bpharm_2023" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/layer1.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Pharmacy</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bph_2023" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/02-Medicalappointment.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Health Administration &amp; Public
+                              Health</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+              </div>
+
+
+              <div class="row py-lg-2 align-items-center">
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bva_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/fine-arts.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Fine Arts</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/performingarts_2023" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/drama.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Performing Arts</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bsc_nursing_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/nurse.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Nursing</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bscprogram_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/chemistry.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Applied Sciences</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+              </div>
+
+              <div class="row py-lg-2 align-items-center">
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/ba_2023" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/art.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Arts</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/hospitality_2023" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/maintenance.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Aviation Management</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bachelorsocialwork_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/Network.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Social Work</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bachelorphysiotherapy_2023" rel="noopener"  target="_blank"> -->
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/chiropractic.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Physiotherapy</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+              </div>
+
+              <div class="row py-lg-2 align-items-center">
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bba_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/g4428.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Business Administration</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/hospitality_2023" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/calendar.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Hotel Management &amp; Catering Tech
+                          </h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/bsc_2023/" rel="noopener" target="_blank"> -->
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/sketch.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Design</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+
+                  <div class="col-md-3 mt-2 showhim">
+                      <!-- <a href="https://paruluniversity.ac.in/ba-governance-leadership_2023/" target="_blank" rel="noopener"> -->
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/management.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Leadership &amp; Governance</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+              </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="row py-lg-2 align-items-center">
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/technology.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Engineering</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/architect.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Architecture</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/nurse.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Nursing</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/g4428.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Business Administration</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row py-lg-2 align-items-center">
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/sketch.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Design</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/calendar.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Hotel Management &amp; Catering Tech
+                          </h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/maintenance.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Aviation Management</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/drama.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Performing Arts</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+
+              <div class="row py-lg-2 align-items-center">
+                  <div class="col-md-3 mt-2 showhim">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/layer1.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Pharmacy</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              <div class="row py-lg-2 align-items-center">
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/technology.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Engineering</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/architect.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Architecture</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/maths.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Commerce</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/Outline_43_.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">IT &amp; Computer Science</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row py-lg-2 align-items-center">
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/02-Medicalappointment.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Health Administration &amp; Public
+                              Health</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/layer1.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Pharmacy</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/Network.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Social Work</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/balance.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Law</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="row py-lg-2 align-items-center">
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/sketch.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Design</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/art.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Arts</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/chemistry.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Applied Sciences</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/g4428.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Business Administration</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+
+              <div class="row py-lg-2 align-items-center">
+
+
+                  <div class="col-md-3 mt-2 showhim ">
+
+                      <div class="box red-box bg1 d-flex align-items-center direct">
+                          <img src="images/program/nurse.svg" alt="" class="img-fluid mr-3">
+                          <h6 class="mb-0 mt-2 font-weight-bold mt-2 text-black">Nursing</h6>
+                          <div class="showme col-md-6 text-center mt-2">
+                              <img src="images/program/right-arrow.svg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</section>
+
+<section class="academic_events mt-5">
   <div class="container">
-  <div class="px-4 py-5 my-5 text-center">
+  <div class="px-4 py-5 my-0 text-center"  data-aos="fade-up">
     <p class="lead mb-4 text-muted">Here You Can Have The Most Thrilling</p>
     <h1 class="display-5 fw-bold text-body-emphasis">Learning Experience With Unique Academic Events</h1>
   </div>
@@ -414,117 +1039,83 @@
     <div class="row">
       <div class="col">
 
-        <div class="row">
-         <div class="col">
-          <img src="./imgs/artist.png" alt="" class="img-fluid">
+        <div class="row px-2 py-2">
+         <div class="col-xl">
+          <img src="./imgs/academic_event3.png" alt="" class="img-fluid">
          </div>
         </div>
 
-        <div class="row">
-         <div class="col">
-          <img src="./imgs/artist.png" alt="" class="img-fluid">
+        <div class="row px-2 py-2">
+         <div class="col-md-6">
+          <img src="./imgs/academic_event1.png" alt="" class="img-fluid">
          </div>
-         <div class="col">
-          <img src="./imgs/artist.png" alt="" class="img-fluid">
+         <div class="col-md-6">
+          <img src="./imgs/academic_event2.png" alt="" class="img-fluid">
          </div>
         </div>
 
        </div>
 
-       <div class="col">
-       
-        <div class="row">
-         <div class="col">
-          <img src="./imgs/artist.png" alt="" class="img-fluid">
+       <div class="col-xl">
+
+        <div class="row px-2 py-2">
+         <div class="col-md-6">
+          <img src="./imgs/academic_event4.png" alt="" class="img-fluid">
          </div>
-         <div class="col">
-          <img src="./imgs/artist.png" alt="" class="img-fluid">
+         <div class="col-md-6">
+          <img src="./imgs/academic_event5.png" alt="" class="img-fluid">
          </div>
         </div>
 
-        <div class="row">
+        <div class="row px-2 py-2">
           <div class="col">
-           <img src="./imgs/artist.png" alt="" class="img-fluid">
+           <img src="./imgs/academic_event6.png" alt="" class="img-fluid">
           </div>
          </div>
 
 
        </div>
     </div>
-  
 
-  <div class="row">
-    <div class="px-4 py-5 my-5 text-center">
-      <p class="lead mb-4 text-muted">Here Is How We Make You The Best</p>
-      <h1 class="display-5 fw-bold text-body-emphasis">Through Our Finest Facilities For Skilling & Training</h1>
-    </div>
+    <div class="container" style="color: #000;">
+      <div class="row">
+          <div class="col-md-12 text-center my-lg-5">
+              <h2 class="fnt-w-300">
+                  Here Is How We Make You The Best
+              </h2>
+              <h1 class="fnt-w-900">
+                  Through Our Finest Facilities For Skilling &amp; Training
+              </h1>
+          </div>
+      </div>
+
+    
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./images/skill/img1.webp" alt="" height="auto" width="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="./images/skill/img2.webp" alt="" height="auto" width="100%">
+
+        </div>
+        <div class="col-md-4">
+          <img src="./images/skill/img3.webp" alt="" height="auto" width="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="./images/skill/img4.webp" alt="" height="auto" width="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="./images/skill/img5.webp" alt="" height="auto" width="100%">
+
+        </div>
+        <div class="col-md-4">
+          <img src="./images/skill/img6.webp" alt="" height="auto" width="100%">
+        </div>
+        
+      </div>
   </div>
 
 
-  <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 ">
-    <div class="col">
-      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
-        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
-          <ul class="d-flex list-unstyled mt-auto">
-            <li class="me-auto">
-              <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-            </li>
-            <li class="d-flex align-items-center me-3">
-              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-              <small>Earth</small>
-            </li>
-            <li class="d-flex align-items-center">
-              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-              <small>3d</small>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
-          <ul class="d-flex list-unstyled mt-auto">
-            <li class="me-auto">
-              <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-            </li>
-            <li class="d-flex align-items-center me-3">
-              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-              <small>Pakistan</small>
-            </li>
-            <li class="d-flex align-items-center">
-              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-              <small>4d</small>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-          <ul class="d-flex list-unstyled mt-auto">
-            <li class="me-auto">
-              <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-            </li>
-            <li class="d-flex align-items-center me-3">
-              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-              <small>California</small>
-            </li>
-            <li class="d-flex align-items-center">
-              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-              <small>5d</small>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -536,18 +1127,18 @@
       <p class="display-6 text-muted"> <span class="yellow-c">←</span> Our Students Speak</p>
       <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">“I Got Shape My Skills & Gain Practical Knowledge ”</h1>
       <p class="lead text-muted" style="font-size: 1.2rem;">My learning journey with Parul University has allowed me to develop my skills and knowledge through the best exposure to practical facilities and resources. These regular sessions have given me the chance to gain a real life experience</p>
-    
+
     </div>
   </div>
 
-  
-  
+
+
 
 </section>
 
 <section class="global">
   <div class="container">
-  <div class="row g-5 py-5">
+  <div class="row g-5 py-5"  data-aos="fade-up">
     <div class="col-md-6">
     <h1 class="fw-bold lh-1 display-5">The Best Local University For the Grandest Global Experience</h1>
     <p style="font-size: 1.5rem; font-weight: 100;">A University International Exposure with Endless Possibility</p>
@@ -581,7 +1172,7 @@
   </div>
 
 
-  <div class="row">
+  <div class="row"  data-aos="fade-up">
     <div class="col-md-3 my-3">
       <div class="card" style="border-radius: 15px; margin: 0; padding: 0;">
         <div class="card-body px-0  py-0">
@@ -592,7 +1183,7 @@
       </div>
 
     </div>
-    
+
     <div class="col-md-3 my-3">
       <div class="card" style="border-radius: 15px; margin: 0; padding: 0;">
         <div class="card-body px-0 py-0">
@@ -628,23 +1219,23 @@
 
 
 
-  <div class="row px-2 py-5">
+  <div class="row px-2 py-5"  data-aos="fade-up">
     <div class="col d-flex justify-content-center my-2">
-      <div class="txt-cnt glass-effect">
-        <h1 class="fw-bold display-3">100+</h1>
-        <p>Visiting Faculties</p>
+      <div class="txt-cnt glass-effect px-5 py-2" style="height: fit-content;">
+        <h1 class="fw-bold display-3 my-0">100+</h1>
+        <p class="mb-0" style="margin-top: -.7rem;">Visiting Faculties</p>
       </div>
     </div>
     <div class="col d-flex justify-content-center my-2">
-      <div class="px-5 py-2" style="background-color: #FFCC29; color: #000; width: fit-content; border-radius: 10px;">
-      <h1 class="fw-bold display-3">2500+</h1>
-      <p>International Students</p>
+      <div class="px-5 py-2" style="background-color: #FFCC29; color: #000; width: fit-content; border-radius: 10px; height: fit-content;">
+      <h1 class="fw-bold display-3 my-0">2500+</h1>
+      <p class="mb-0" style="margin-top: -.7rem;">International Students</p>
       </div>
     </div>
     <div class="col d-flex justify-content-center my-2">
-      <div class="txt-cnt glass-effect">
-      <h1 class="fw-bold display-3">70+</h1>
-      <p>Nationalities</p>
+      <div class="txt-cnt glass-effect px-5 py-2" style="height: fit-content;">
+        <h1 class="fw-bold display-3 my-0">70+</h1>
+      <p class="mb-0" style="margin-top: -.7rem;">Nationalities</p>
       </div>
     </div>
   </div>
@@ -668,12 +1259,12 @@
         <h2 class="fw-bold lh-1 mb-3">Love It? You Can Live in It!</h2>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <div style="padding: .5rem 2rem; background-color: #FFCC29; color: #000; border-radius: 10px;">
-            <h1 class="fw-bolder">20,000+</h1>
-            <p class="my-0">In-campus Residence Capacit</p>
+            <h1 class="fw-bolder my-0">20,000+</h1>
+            <p class="my-0" style="font-size: 1rem;">In-campus Residence Capacity</p>
           </div>
           <div style="box-shadow: 0px 0px 10px 0px #00000040; padding: .5rem 2rem; color: #000; border-radius: 10px;">
-            <h1 class="fw-bolder">38</h1>
-            <p class="my-0">Elite Hostel Facilities</p>
+            <h1 class="fw-bolder my-0">38</h1>
+            <p class="my-0" style="font-size: 1rem;">Elite Hostel Facilities</p>
             </div>
         </div>
       </div>
@@ -696,4 +1287,4 @@
   AOS.init();
 </script>
 </body>
-</html> 
+</html>

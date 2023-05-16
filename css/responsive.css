@@ -1,0 +1,1296 @@
+    @media screen and (min-width:992px) and (max-width:1023px) {
+        .navbar-light .navbar-nav .nav-link,
+        .navbar-light .navbar-nav .nav-link.active,
+        .navbar-light .navbar-nav .nav-link:hover {
+            font-size: 10px!important
+        }
+        .thumb-next {
+            right: -46px
+        }
+        .height44 {
+            min-height: 45rem;
+        }
+        .head3 {
+            font-size: 1.8rem!important;
+        }
+        .font-s {
+            font-size: 3rem!important;
+        }
+        .custom-fluid {
+            padding: 0rem 1rem;
+        }
+        .business p {
+            font-size: 0.72rem;
+        }
+        .rec_txt {
+            font-size: 0.7rem;
+            text-align: center;
+            padding-top: 0.7rem;
+        }
+        .hig_img {
+            width: 4rem;
+        }
+        .w-20 {
+            width: 30%;
+        }
+        .border-box1,
+        .border-box2,
+        .border-box3 {
+            padding: 1rem 1rem;
+            margin: 1rem;
+            min-height: 15rem;
+        }
+        .column {
+            width: 17%;
+        }
+        .column1 {
+            width: 28%;
+        }
+        .card {
+            min-height: 25rem;
+        }
+        .mrgn-top11 {
+            margin-top: 10rem;
+            margin-left: 3rem;
+        }
+        .pos-set1 {
+            bottom: -4rem;
+        }
+        .studbackground {
+            min-height: 125rem;
+        }
+        .border-css1 {
+            background: #f5f5f5;
+            border-bottom-right-radius: 8rem;
+            border-bottom-left-radius: 8rem;
+            min-height: 40rem;
+        }
+        .banner-form {
+            top: 8rem;
+        }
+        .nav-pills .nav-link.red_act {
+            font-size: 1.3rem;
+        }
+        .nav-pills .nav-link.active.red_act {
+            font-size: 1.5rem;
+        }
+        .box {
+            min-height: 9rem;
+            align-items: center;
+        }
+        .p5 {
+            padding: 1rem!important;
+        }
+        .min-h {
+            min-height: 11rem;
+        }
+        h1 {
+            font-size: 2rem!important;
+        }
+        .border-box4 {
+            min-height: 9rem;
+        }
+        .border-css22 {
+            min-height: 48rem;
+        }
+        .pos-set {
+            top: -3rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 2rem;
+        }
+        .studbackground {
+            min-height: 135rem;
+        }
+        .border-css2 {
+            margin-top: -10rem;
+            min-height: 55rem;
+        }
+        .box-style1 {
+            min-height: 10rem;
+        }
+        .sty2 {
+            font-size: 2.8rem!important;
+        }
+        .bg-blur {
+            margin-top: -4rem;
+        }
+        .nav-pills .nav-link.red_act1 {
+            font-size: 0.9rem;
+        }
+        .tab .nav-pills .nav-link.red_act1 {
+            padding: 1rem 1rem;
+        }
+        .fn {
+            font-size: 2.1rem!important;
+        }
+        .style {
+            padding: 2rem;
+        }
+        .nav-pills.mts {
+            width: 29rem!important;
+        }
+        .direct {
+            flex-direction: column;
+            text-align: center;
+        }
+        .strock-text1 {
+            font-size: 9rem!important;
+            top: -1rem;
+            right: 3rem;
+            z-index: 1;
+        }
+        .margin-top-3 {
+            margin-top: 0rem;
+        }
+        .margin-top3 {
+            margin-top: 0rem;
+        }
+        .fnt-5 {
+            font-size: 3rem!important;
+        }
+        .bg-style {
+            min-height: 50rem!important;
+        }
+        .studbackground1 {
+            margin-top: -10rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 10rem;
+        }
+        .life {
+            margin-top: -12.3rem !important;
+        }
+        .pos-set-1 {
+            position: relative;
+            top: -2rem;
+        }
+        .bg-style {
+            border-bottom-right-radius: 8rem;
+            border-bottom-left-radius: 8rem;
+            background: #fff;
+            min-height: 55rem;
+            position: relative;
+        }
+        .studbackground1 {
+            margin-top: -10rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 10rem;
+        }
+        .fnt-5 {
+            font-size: 3.2rem!important;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .banner-section .col-md-12 {
+            padding: 0!important
+        }
+        /* .banner-form {
+            position: relative;
+            top: unset;
+            right: unset;
+            width: 100%
+        } */
+        .banner_form {
+            position: relative;
+            left: auto;
+            top: 2rem;
+            right: 0px;
+            text-align: center;
+            margin: 0 auto 3rem;
+            width: 90%;
+        }
+        .font-1 {
+            font-size: 1rem!important;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .scroll2 {
+            right: unset;
+            bottom: 0;
+            transform: rotate(0);
+            width: 100%
+        }
+        .commom-heading {
+            font-size: 1.5rem!important;
+            line-height: 35px!important
+        }
+        .custom-fluid {
+            padding: 0rem 1rem;
+        }
+        p {
+            font-size: 14px;
+            line-height: 24px;
+        }
+        h1 {
+            font-size: 1.5rem!important;
+        }
+        h2 {
+            font-size: 1.3rem!important;
+        }
+        h3 {
+            font-size: 1rem!important;
+        }
+        h4 {
+            font-size: 1rem!important;
+        }
+        .col_pd {
+            padding-top: 0rem;
+        }
+        .bg-back12 {
+            min-height: 60rem;
+            border-top-right-radius: 0rem;
+            border-top-left-radius: 0rem;
+        }
+        .justy {
+            text-align: center;
+        }
+        .direction {
+            flex-direction: column;
+        }
+        .pdd {
+            padding: 0.5rem;
+        }
+        .nav-item {
+            width: 100%;
+            margin-top: 1rem;
+        }
+        .strock-text {
+            font-size: 2rem!important;
+        }
+        .bg-edu {
+            border-top-right-radius: 0rem;
+            border-top-left-radius: 0rem;
+        }
+        .border-box1,
+        .border-box2,
+        .border-box3 {
+            padding: 0.5rem 0rem;
+            min-height: 0rem;
+            margin-bottom: 0rem;
+            margin: 0rem;
+        }
+        .border-box1 {
+            border-right: none;
+        }
+        .dotted_bottom {
+            display: none;
+        }
+        .left-sapce {
+            padding-left: 1rem!important;
+        }
+        .border-box3 {
+            border-right: none;
+        }
+        .p5 {
+            padding-top: 0rem;
+        }
+        .margin-top3 {
+            margin-top: 1rem;
+        }
+        .margin-top-3 {
+            margin-top: 1rem;
+        }
+        .border-css1 {
+            border-bottom-right-radius: 0rem;
+            border-bottom-left-radius: 0rem;
+            min-height: 40rem;
+        }
+        .background {
+            border-bottom-right-radius: 0rem;
+            border-bottom-left-radius: 0rem;
+        }
+        .p51 {
+            padding: 1rem!important;
+        }
+        .pl1 {
+            padding-left: 1rem!important;
+        }
+        .pos-set {
+            top: 0rem;
+        }
+        .pos-set1 {
+            position: relative;
+            top: 1rem;
+            bottom: 0rem;
+            left: 0rem;
+        }
+        .border-css22 {
+            border-bottom-right-radius: 0rem;
+            border-bottom-left-radius: 0rem;
+            min-height: 51rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 3rem;
+        }
+        .mrgn-top-20 {
+            margin-top: 0rem;
+        }
+        .bg-blur {
+            min-height: 30rem;
+        }
+        .pos3 {
+            margin-top: 0rem;
+        }
+        .border-css2 {
+            border-top-right-radius: 0rem;
+            border-top-left-radius: 0rem;
+            margin-top: 0rem;
+        }
+        .mrgn-top {
+            margin-top: 4rem;
+        }
+        .flx-nowrap {
+            flex-wrap: wrap;
+        }
+        .brd-right {
+            border-top-right-radius: 0rem;
+            padding-bottom: 4rem;
+        }
+        .mrgn-top11 {
+            margin-top: 0rem;
+        }
+        .font-s2 {
+            font-size: 1.2rem!important;
+        }
+        .font-s1 {
+            font-size: 1.5rem!important;
+        }
+        .font-s {
+            font-size: 1.5rem!important;
+        }
+        .margn-3 {
+            margin-top: 3rem;
+        }
+        .dnone {
+            display: none;
+        }
+        .dblock {
+            display: block;
+        }
+        .bg-blur {
+            margin-top: 1rem;
+        }
+        .sty2 {
+            font-size: 1.8rem!important;
+        }
+        .life {
+            height: 600px;
+            margin-top: 0rem !important;
+        }
+        .head-life {
+            font-size: 4rem !important;
+        }
+        .mar-top-d {
+            font-size: 18px!important;
+        }
+        .border-css {
+            border-bottom-right-radius: 0rem;
+            border-bottom-left-radius: 0rem;
+        }
+        .nav-pills.mts {
+            width: 100%!important;
+        }
+        .nav-pills .nav-link.active.red_act {
+            width: 100%;
+        }
+        .pos-set-1 {
+            position: relative;
+            top: -1rem;
+        }
+        .card-body1 {
+            position: relative;
+            margin-top: -18rem;
+            color: #fff;
+            padding: 1rem;
+        }
+        .border-css {
+            margin-bottom: 1rem;
+        }
+        .box {
+            padding: 10px 10px 10px 10px;
+            border-radius: 5px;
+            min-height: 5rem;
+        }
+        .margn-top-7 {
+            margin-top: 0rem;
+        }
+        .sty1 {
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+        .w-50 {
+            width: 50%;
+        }
+        .pos-set1 {
+            top: -2rem;
+        }
+        .studbackground1 {
+            margin-top: 0rem;
+        }
+        .bg-style {
+            border-bottom-right-radius: 0rem;
+            border-bottom-left-radius: 0rem;
+            min-height: 45rem;
+        }
+        .centered1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .psn {
+            position: relative;
+            text-align: center;
+        }
+        .w-30 {
+            width: 30%!important;
+        }
+        .fn-12 {
+            font-size: 12px!important;
+        }
+        .style {
+            padding: 2rem;
+        }
+        .border-box {
+            font-size: 1rem;
+        }
+        .t-p {
+            color: rgb(193 206 216);
+            padding: 30px 30px 30px 30px;
+        }
+        .border-right {
+            border-right: none!important;
+        }
+        .sty2 {
+            margin-bottom: 1rem;
+        }
+        .nav-pills .nav-link.active.red_act {
+            width: 100%;
+        }
+        .studbackground {
+            min-height: 120rem;
+        }
+        .min-h1 {
+            min-height: 9rem;
+        }
+        .disp-none {
+            display: none;
+        }
+        .accordion .item .item-header h2 button.btn.btn-link {
+            background: #000;
+            color: white;
+            font-size: 16px;
+            font-weight: 900;
+            line-height: 2.5;
+            text-decoration: none;
+        }
+        .mrgn-t {
+            margin-top: 0rem;
+        }
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        .hig_img {
+            width: 4rem;
+        }
+        .w-20 {
+            width: 30%;
+        }
+        .rec_txt {
+            font-size: 0.8rem;
+            padding-top: 0.8rem;
+        }
+        h1 {
+            font-size: 2.3rem!important;
+        }
+        .fnt-sz {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .nav-pills .nav-link.red_act {
+            font-size: 1rem;
+        }
+        .nav-pills .nav-link.active.red_act {
+            font-size: 1.2rem;
+        }
+        .box {
+            flex-direction: column;
+            flex-wrap: wrap;
+            min-height: 12rem;
+        }
+        .box h5 {
+            text-align: center;
+        }
+        .custom-fluid {
+            padding: 0rem 1rem;
+        }
+        .border-box1,
+        .border-box2,
+        .border-box3 {
+            padding: 1rem 0rem;
+            min-height: 15rem;
+        }
+        .border-css1 {
+            min-height: 40rem;
+        }
+        .min-h {
+            min-height: 12rem;
+        }
+        .column1 {
+            padding: 0 4px;
+            width: 28%;
+        }
+        .column {
+            width: 17%;
+        }
+        .border-css22 {
+            min-height: 45rem;
+        }
+        .pos-set {
+            top: -3rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 2rem;
+        }
+        .studbackground {
+            min-height: 120rem;
+        }
+        .border-css2 {
+            min-height: 50rem;
+        }
+        .font-s {
+            font-size: 4rem!important;
+        }
+        .custom-fluid {
+            padding: 0rem 1rem;
+        }
+        .commom-heading {
+            font-size: 35px;
+        }
+        .sty2 {
+            font-size: 2.5rem!important;
+        }
+        .bg-blur {
+            margin-top: -5rem;
+        }
+        .strock-text1 {
+            font-size: 9rem!important;
+            top: 0rem;
+            right: 2rem;
+        }
+        .box-style1 {
+            min-height: 9rem;
+        }
+        .card {
+            min-height: 24rem;
+        }
+        .mrgn-top11 {
+            margin-top: 8rem;
+            margin-left: 3rem;
+        }
+        .margin-top3 {
+            margin-top: 3rem;
+        }
+        .margin-top-3 {
+            margin-top: 0rem;
+        }
+        /* .mar-res {
+            margin-top: -12rem;
+        } */
+        .fn {
+            font-size: 2.1rem!important;
+        }
+        .style {
+            padding: 3rem;
+        }
+        .nav-pills.mts {
+            width: 24rem!important;
+        }
+        .pos-set1 {
+            position: relative;
+            bottom: -3rem;
+            left: 12rem;
+            /* font-weight: 300; */
+        }
+        .pos-set-1 {
+            position: relative;
+            top: -2rem;
+        }
+        .mrgn-top-20 {
+            margin-top: 0rem;
+        }
+        .border-css2 {
+            margin-top: -5rem;
+        }
+        .bg-style {
+            border-bottom-right-radius: 8rem;
+            border-bottom-left-radius: 8rem;
+            background: #fff;
+            min-height: 55rem;
+            position: relative;
+        }
+        .studbackground1 {
+            margin-top: -10rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 10rem;
+        }
+        .fnt-5 {
+            font-size: 3rem!important;
+        }
+        .bg-blur {
+            min-height: 30rem;
+        }
+        .studbackground {
+            min-height: 135rem!important;
+        }
+        .head3 {
+            font-size: 1.8rem!important;
+        }
+        .font-1 {
+            font-size: 1rem!important;
+        }
+        .nav-pills .nav-link.active.red_act1 {
+            font-size: 1.1rem;
+        }
+        .border-css1 {
+            background: none;
+            min-height: 35rem;
+            margin-top: 4rem;
+        }
+        .mar-res {
+            margin-top: -14rem;
+        }
+        .mtt-1 {
+            margin-top: 3rem;
+        }
+        .mrgn-t {
+            margin-top: 0rem;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) and (max-width:1279px) {
+        .custom-fluid {
+            padding: 0rem 1rem;
+        }
+        .commom-heading {
+            font-size: 35px;
+        }
+        .border-box1,
+        .border-box2,
+        .border-box3 {
+            padding: 1rem 1rem;
+            margin: 1rem;
+            min-height: 15rem;
+        }
+        .column {
+            width: 17%;
+        }
+        .column1 {
+            width: 28%;
+        }
+        .card {
+            min-height: 25rem;
+        }
+        .mrgn-top11 {
+            margin-top: 10rem;
+            margin-left: 3rem;
+        }
+        .pos-set1 {
+            bottom: -7rem;
+        }
+        .studbackground {
+            background: url(../images/student/studbackground.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top;
+            min-height: 125rem;
+        }
+        .border-css1 {
+            background: #f5f5f5;
+            border-bottom-right-radius: 8rem;
+            border-bottom-left-radius: 8rem;
+            min-height: 40rem;
+        }
+        .banner-form {
+            top: 8rem;
+        }
+        .hig_img {
+            width: 6rem!important;
+        }
+        .w-20 {
+            width: 30%;
+        }
+        .rec_txt {
+            font-size: 0.8rem;
+            padding-top: 0.8rem;
+        }
+        .nav-pills .nav-link.red_act {
+            font-size: 1.3rem;
+        }
+        .nav-pills .nav-link.active.red_act {
+            font-size: 1.5rem;
+        }
+        .box {
+            min-height: 9rem;
+            align-items: center;
+        }
+        .p5 {
+            padding: 1rem!important;
+        }
+        .min-h {
+            min-height: 11rem;
+        }
+        h1 {
+            font-size: 2.5rem!important;
+        }
+        .border-box4 {
+            min-height: 9rem;
+        }
+        .border-css22 {
+            min-height: 55rem;
+        }
+        .pos-set {
+            top: -3rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 2rem;
+        }
+        .studbackground {
+            min-height: 135rem;
+        }
+        .border-css2 {
+            margin-top: -10rem;
+            min-height: 55rem;
+        }
+        .box-style1 {
+            min-height: 10rem;
+        }
+        .sty2 {
+            font-size: 2.8rem!important;
+        }
+        .bg-blur {
+            margin-top: -4rem;
+        }
+        .nav-pills .nav-link.red_act1 {
+            font-size: 0.9rem;
+        }
+        .tab .nav-pills .nav-link.red_act1 {
+            padding: 1rem 1rem;
+        }
+        .fn {
+            font-size: 2.1rem!important;
+        }
+        .style {
+            padding: 3rem;
+        }
+        .nav-pills.mts {
+            width: 29rem!important;
+        }
+        .strock-text1 {
+            font-size: 9rem!important;
+            top: -1rem;
+            right: 3rem;
+            z-index: 1;
+        }
+        .margin-top-3 {
+            margin-top: 0rem;
+        }
+        .margin-top3 {
+            margin-top: 0rem;
+        }
+        .fnt-5 {
+            font-size: 3rem!important;
+        }
+        .bg-style {
+            min-height: 55rem;
+        }
+        .studbackground1 {
+            margin-top: -10rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 10rem;
+        }
+        .bg-style {
+            border-bottom-right-radius: 8rem;
+            border-bottom-left-radius: 8rem;
+            background: #fff;
+            min-height: 55rem;
+            position: relative;
+        }
+        .studbackground1 {
+            margin-top: -10rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 10rem;
+        }
+        .fnt-5 {
+            font-size: 3.2rem!important;
+        }
+        .font-s {
+            font-size: 3rem!important;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) and (max-width: 1150px) {
+        /* .mar-res {
+            margin-top: -12rem;
+        } */
+    }
+    
+    @media screen and (min-width: 1024px) and (max-width: 1199px) {
+        .direct {
+            flex-direction: column;
+        }
+        .business p {
+            font-size: 0.72rem;
+        }
+    }
+    
+    @media screen and (min-width: 1280px) and (max-width: 1400px) {
+        h1 {
+            font-size: 2.2rem;
+        }
+        .commom-heading {
+            font-size: 35px;
+        }
+        .mrgn-top {
+            margin-top: 6rem;
+            /* text-align: center; */
+        }
+        .common-heading {
+            font-size: 45px;
+        }
+        .custom-fluid {
+            padding: 0rem 5rem;
+        }
+        .border-box1,
+        .border-box2,
+        .border-box3 {
+            padding: 1rem 2rem;
+            margin: 1rem;
+            min-height: 15rem;
+        }
+        .column {
+            width: 17%;
+        }
+        .column1 {
+            width: 28%;
+        }
+        .card {
+            min-height: 25rem;
+        }
+        .mrgn-top11 {
+            margin-top: 10rem;
+        }
+        .pos-set1 {
+            bottom: -10rem;
+        }
+        .border-css22 {
+            min-height: 60rem;
+        }
+        .studbackground {
+            min-height: 125rem;
+        }
+        .border-css1 {
+            min-height: 40rem;
+        }
+        .hig_img {
+            width: 6rem;
+        }
+        .w-20 {
+            width: 30%;
+        }
+        .rec_txt {
+            font-size: 0.8rem;
+            padding-top: 1rem;
+        }
+        .min-h {
+            min-height: 9rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 3rem;
+        }
+        .pos-set {
+            position: relative;
+            top: -8rem;
+        }
+        .box-style1 {
+            min-height: 10rem;
+        }
+        .sty2 {
+            font-size: 3rem!important;
+        }
+        .margin-top3 {
+            margin-top: 2rem;
+        }
+        .margin-top-3 {
+            margin-top: -3rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 0rem;
+        }
+        .tab .nav-pills .nav-link.red_act1 {
+            padding: 1rem 1rem;
+        }
+        .fn {
+            font-size: 2.1rem!important;
+        }
+        .style {
+            padding: 3rem;
+        }
+        .border-css2 {
+            min-height: 50rem;
+            margin-top: -8rem;
+        }
+        .bg-style {
+            border-bottom-right-radius: 8rem;
+            border-bottom-left-radius: 8rem;
+            background: #fff;
+            min-height: 55rem;
+            position: relative;
+        }
+        .studbackground1 {
+            margin-top: -10rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 10rem;
+        }
+        .fnt-5 {
+            font-size: 3.2rem!important;
+        }
+        .font-s {
+            font-size: 4rem!important;
+        }
+    }
+    
+    @media screen and (min-width: 1401px) and (max-width: 1650px) {
+        h1 {
+            font-size: 2.5rem;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            padding: 0 4px;
+            width: 17%;
+        }
+        .column1 {
+            width: 28%;
+        }
+        .pos-set1 {
+            bottom: -10rem;
+        }
+        .card {
+            min-height: 25rem;
+        }
+        .mrgn-top11 {
+            margin-top: 10rem;
+        }
+        .border-box1,
+        .border-box2,
+        .border-box3 {
+            padding: 1rem 2rem;
+            margin: 1rem;
+            min-height: 9rem;
+        }
+        .rec_txt {
+            font-size: 0.8rem;
+            text-align: center;
+            padding-top: 1rem;
+        }
+        .hig_img {
+            width: 7rem;
+        }
+        .min-h1 {
+            min-height: 6rem;
+        }
+        .min-h {
+            min-height: 9rem;
+        }
+        .studbackground {
+            min-height: 130rem;
+        }
+        .sty2 {
+            font-size: 3.5rem!important;
+        }
+        .border-css1 {
+            min-height: 48rem;
+        }
+        .border-css22 {
+            min-height: 65rem;
+        }
+        .fnt-5 {
+            font-size: 4rem!important;
+        }
+        .border-css2 {
+            min-height: 60rem;
+            margin-top: -8rem;
+        }
+        .bg-style {
+            border-bottom-right-radius: 8rem;
+            border-bottom-left-radius: 8rem;
+            background: #fff;
+            min-height: 60rem;
+            position: relative;
+        }
+        .studbackground1 {
+            margin-top: -10rem;
+        }
+        .mrgn-top-15 {
+            margin-top: 10rem;
+        }
+        .pos-set {
+            position: relative;
+            top: -8rem;
+        }
+        .margin-top3 {
+            margin-top: -2rem;
+        }
+        .margin-top-3 {
+            margin-top: -2rem;
+        }
+        .w-20 {
+            width: 30%;
+        }
+    }
+    
+    @media screen and (min-width: 1651px) and (max-width: 1920px) {
+        .min-h1 {
+            min-height: 6rem;
+        }
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 768px) {
+        .rec_txt {
+            font-size: 0.6rem;
+            padding-top: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem!important;
+        }
+        h2 {
+            font-size: 1.8rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        h4 {
+            font-size: 1.2rem;
+        }
+        h5 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: 14px;
+        }
+        .fnt-sz {
+            font-size: 0.9rem;
+        }
+        .nav-pills .nav-link.active.red_act {
+            font-size: 1rem;
+        }
+        .nav-pills .nav-link.red_act {
+            font-size: 0.9rem;
+        }
+        .box {
+            flex-direction: column;
+            flex-wrap: wrap;
+            min-height: 10rem;
+        }
+        .strock-text {
+            font-size: 4rem!important;
+        }
+        .border-css1 {
+            min-height: 35rem;
+        }
+        .p51 {
+            padding: 1rem!important;
+        }
+        .border-box4 {
+            padding: 1rem 1rem;
+        }
+        .border-css22 {
+            min-height: 40rem;
+        }
+        .pos-set {
+            top: 7rem;
+        }
+        .pos-set1 {
+            left: 6rem;
+        }
+        .custom-fluid {
+            padding: 0rem 1rem;
+        }
+        .sty2 {
+            font-size: 2rem!important;
+        }
+        .min-h1 {
+            min-height: 8rem;
+        }
+        .font-s {
+            font-size: 3rem!important;
+        }
+        .mrl {
+            padding-left: 1rem!important;
+            padding-right: 1rem!important;
+            padding-top: 1rem!important;
+            padding-bottom: 1rem!important;
+        }
+        .life {
+            margin-top: -13rem!important;
+        }
+        .head-life {
+            font-size: 9rem !important;
+        }
+        .fn {
+            font-size: 1.8rem!important;
+        }
+        .style {
+            padding: 1rem;
+        }
+        .nav-pills.mts {
+            width: 22rem!important;
+        }
+        .just {
+            justify-content: center;
+        }
+        .direct {
+            flex-direction: column;
+        }
+        .pos-set-1 {
+            position: relative;
+            top: -1rem;
+        }
+        .studbackground {
+            min-height: 125rem!important;
+        }
+        .margn-3 {
+            margin-top: 3rem;
+        }
+        .bg-style {
+            min-height: 105rem!important;
+        }
+    }
+    
+    @media screen and (min-width: 992px) {
+        .custom-container {
+            padding: 0rem 7rem !important;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .bottom_button {
+            text-align: center;
+            padding-top: 0.5rem;
+            padding-bottom: 0rem;
+        }
+        button.btn.enq_ftr {
+            background-color: #ffd700;
+            color: #000;
+            font-weight: 700;
+            font-size: .9rem;
+            width: 100%;
+            border-radius: 0.7rem;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .fixed-bottom {
+            display: block !important;
+        }
+    }
+    /*header res*/
+    
+    @media screen and (min-width: 501px) and (max-width: 575px) {
+        .logo-wd {
+            width: 230px;
+        }
+    }
+    
+    @media screen and (min-width: 576px) and (max-width: 767px) {
+        .logo-wd {
+            width: 300px!important;
+        }
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        .logo-wd {
+            width: 350px;
+        }
+    }
+    
+    @media screen and (max-width: 319px) {
+        .logo-wd {
+            width: 100px !important;
+        }
+        .head-btn-toll {
+            font-size: 0.55rem !important;
+        }
+    }
+    
+    @media screen and (min-width: 320px) and (max-width: 360px) {
+        .logo-wd {
+            width: 120px !important;
+        }
+        .head-btn-toll {
+            font-size: 0.65rem !important;
+        }
+    }
+    
+    @media screen and (min-width:361px) and (max-width: 400px) {
+        .logo-wd {
+            width: 150px;
+        }
+        .head-btn-toll {
+            font-size: 0.75rem !important;
+        }
+    }
+    
+    @media screen and (min-width:401px) and (max-width: 500px) {
+        .logo-wd {
+            width: 155px;
+        }
+        .head-btn-toll {
+            font-size: 0.8rem !important;
+        }
+    }
+    
+    @media screen and (min-width:401px) and (max-width:599px) {
+        .head-btn-toll {
+            font-size: 0.85rem;
+        }
+    }
+    
+    @media screen and (max-width: 991px) {
+        .fixed-top {
+            position: static !important;
+        }
+    }
+    
+    @media screen and (min-width: 992px) {
+        .banner-section img {
+            margin-top: 5rem !important;
+        }
+    }
+    
+    #header a:hover {
+        color: #fff!important;
+        text-decoration: none;
+    }
+    
+    .btn-danger,
+    .btn-danger:hover {
+        color: #fff;
+        background-color: #D20005;
+        border-color: #D20005;
+    }
+    
+    .btn-danger.focus,
+    .btn-danger:focus {
+        box-shadow: none !important;
+    }
+    /*header res*/
