@@ -235,7 +235,7 @@ li::marker {
   text-align: left;
   box-sizing: border-box;
   padding: 20px;
-  width: 375px;
+  width: 300px;
   z-index: 999;
   background: rgba(255, 255, 255, 0.2);
   border: 2px solid rgba(255, 255, 255, 0.5);
@@ -266,6 +266,7 @@ li::marker {
   width: 100%;
   margin-bottom: 1rem!important;
 }
+
 .pu4u{
   font-size: 1.3rem;
   background-color: #ffe60a;
@@ -300,7 +301,6 @@ li::marker {
   border-color: #F3F6F9;
   width: 100%;
   cursor: pointer;
-  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
