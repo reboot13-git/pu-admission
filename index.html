@@ -31,7 +31,17 @@
     .dropdown-menu>li:hover>.submenu {
       display: block;
     }
-    
+        @media screen and (max-width: 768px) {
+      .dropdown-menu .dropdown-item {
+        color: #000000;
+      }
+      .dropdown-menu .submenu {
+        position: initial;
+        top: initial;
+        left: initial;
+      }
+      
+    }
   
     </style>
 
@@ -164,7 +174,7 @@
 
 
             <div class="row">
-              <div class="col m-bg my-3">
+              <div class="col-xl m-bg my-3">
                 <img src="./imgs/mb-bg.jpg" alt="" class="img-fluid">
               </div>
                 <div class="col d-flex justify-content-center my-3  flex-column d-bg">

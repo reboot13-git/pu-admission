@@ -34,6 +34,9 @@ nav{
         color: #FFCC29;
     }
 }
+.navbar-toggler-icon {
+  background-image: url('../imgs/menu.svg');
+}
 .nav-programs {
     color: #fff;
     &:hover{
@@ -335,12 +338,15 @@ li::marker {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .hero {
     background: #000;
+    height: fit-content;
+    min-height: fit-content;
   }
   .m-bg{
     display: block;
+    margin-top: 4rem!important;
   }
   .d-bg{
     display: none!important;
@@ -366,6 +372,7 @@ li::marker {
     line-height: inherit;
   }
 }
+
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
   .card {
