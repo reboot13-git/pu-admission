@@ -26,9 +26,25 @@ nav{
 }
 .nav-link{
     color: #fff;
+
+    &:hover{
+        color: #FFCC29;
+    }
+    &:focus{
+        color: #FFCC29;
+    }
+}
+.nav-programs {
+    color: #fff;
+    &:hover{
+        color: #FFCC29;
+    }
+    &:focus{
+        color: #FFCC29;
+    }
 }
 .hero{
-    background: url('/imgs/Bg.jpg') no-repeat center center;
+    background: url('../imgs/Bg.jpg') no-repeat center center;
     min-height: 100vh;
     height: fit-content;
     background-size: cover;
@@ -53,7 +69,7 @@ nav{
 
 .awards{
     height: 100vh;
-    background: url('/imgs/Side\ Gate.jpg') no-repeat center center;
+    background: url('../imgs/Side\ Gate.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -72,7 +88,7 @@ nav{
 }
 
 .r-yellow{
-    background: url('/imgs/r-yellow.png') no-repeat center center;
+    background: url('../imgs/r-yellow.png') no-repeat center center;
     padding-block: 3rem;
     margin-top: 1rem;
     position: relative;
@@ -100,7 +116,7 @@ nav{
 
 .placements {
 //  background-color: #000!important;
-background: url('/imgs/Section\ bg.jpg') no-repeat center center;
+background: url('../imgs/Section\ bg.jpg') no-repeat center center;
 background-size: cover;
  color: #fff!important;
 }
@@ -199,7 +215,7 @@ li::marker {
   }
 
   .global {
-    background: url('/imgs/global.jpg') no-repeat center center;
+    background: url('../imgs/global.jpg') no-repeat center center;
     background-size: cover;
     // height: 100vh;
     background-color: #000;
@@ -350,3 +366,11 @@ li::marker {
     line-height: inherit;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .card {
+    min-height: fit-content!important;
+}
+}
+
+

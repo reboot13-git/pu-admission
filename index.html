@@ -17,6 +17,23 @@
 
     <script src="./js/intlTelInput-jquery.min.js" defer></script>
     <script src="./js/utils.js" defer></script>
+    <style>   
+    .dropdown-menu li {
+      position: relative;
+    }
+    .dropdown-menu .submenu {
+      display: none;
+      position: absolute;
+      left: -70%;
+      top: -7px;
+    }
+
+    .dropdown-menu>li:hover>.submenu {
+      display: block;
+    }
+    
+  
+    </style>
 
 </head>
 <body>
@@ -40,17 +57,103 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+        
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Courses</a>
-              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                  <span class="nav-programs"><i class="fa fade-down"></i> Programs</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                 <li>
+                  <a href="" class="dropdown-item">Diploma</a>
+                  <ul class="dropdown-menu submenu">
+                    <li><a href="" class="dropdown-item">BBA</a></li>
+                  </ul>
+                  </li>
+
+                  <li>
+                    <a href="" class="dropdown-item">Lateral Entry</a>
+                    <ul class="dropdown-menu submenu">
+                      <li><a href="" class="dropdown-item">BBA</a></li>
+                    </ul>
+                  </li>
+
+                    <li>
+                      <a href="" class="dropdown-item">Bachelors</a>
+                      <ul class="dropdown-menu submenu">
+                        <li><a href="" class="dropdown-item">BBA</a></li>
+                      </ul>
+                    </li>
+                    
+                    <li>
+                      <a href="" class="dropdown-item">Masters</a>
+                      <ul class="dropdown-menu submenu">
+                        <li><a href="" class="dropdown-item">BBA</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a href="" class="dropdown-item">Post Graduate Diploma</a>
+                      <ul class="dropdown-menu submenu">
+                        <li><a href="" class="dropdown-item">BBA</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a href="" class="dropdown-item">Doctoral</a>
+                      <ul class="dropdown-menu submenu">
+                        <li><a href="" class="dropdown-item">BBA</a></li>
+                      </ul>
+                    </li>
+                    
+                    <li>
+                      <a href="" class="dropdown-item">Certificate</a>
+                      <ul class="dropdown-menu submenu">
+                        <li><a href="" class="dropdown-item">BBA</a></li>
+                      </ul>
+                    </li>
+                      
+                    <li>
+                      <a href="" class="dropdown-item">Certificate</a>
+                      <ul class="dropdown-menu submenu">
+                        <li><a href="" class="dropdown-item">BBA</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a href="" class="dropdown-item">Work Integrated Program</a>
+                      <ul class="dropdown-menu submenu">
+                        <li><a href="" class="dropdown-item">BBA</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a href="" class="dropdown-item">Fellowship</a>
+                      <ul class="dropdown-menu submenu">
+                        <li><a href="" class="dropdown-item">BBA</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a href="" class="dropdown-item">Online Program</a>
+                      <ul class="dropdown-menu submenu">
+                        <li><a href="" class="dropdown-item">BBA</a></li>
+                      </ul>
+                    </li>
+
+                      
+                </ul>
+             </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#">Tel:18001231104</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Apply Now</a>
-              </li>
+
+            
+           
             </ul>
           </div>
         </div>
@@ -1288,3 +1391,5 @@
 </script>
 </body>
 </html>
+
+
